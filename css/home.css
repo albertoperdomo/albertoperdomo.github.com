@@ -1,0 +1,93 @@
+body {
+	background: #eeeeee;
+	color: #000000;
+}
+
+a {
+	color: red;
+/*	text-decoration: none;*/
+/*	font-weight: bold;*/
+}
+
+p {
+	font-size: 14px;
+}
+div#container_top {  
+    background-color: #bbbbbb;
+	color: white;
+	padding-top: 10px;
+}
+
+div#container_top a {  
+	color: black;
+}
+
+div#container_middle {  
+    background-color: #dddddd;
+/*	color: white;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#contact {  
+    background-color: #bbbbbb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#contact p  {  
+	font-size: 16px;
+}
+
+div#container_bottom {  
+    background-color: #222222;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div#container_bottom p {  
+	font-size: 14px;
+}
+
+div#navbar {  
+	color: #222222;
+	padding-bottom: 20px;
+}
+
+div#navbar a {  
+	color: #222222;
+}
+
+div#navbar ul {  
+    list-style: none;  
+    display: block;  
+    margin: 0 10px;  
+}  
+
+div#navbar ul li {  
+    float: left;  
+    margin: 0 1.5em;  
+    font: bold 1em Arial;  
+}
+
+div#twitter {  
+	min-height: 300px;
+	padding-bottom: 10px;
+}
+
+div.header {
+	font-size: 16px;	
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+ul#twitter_update_list li {
+	padding-bottom: 10px;
+}
