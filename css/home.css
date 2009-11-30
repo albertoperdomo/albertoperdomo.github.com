@@ -3,54 +3,27 @@ body {
 	color: #000000;
 }
 
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
 a {
-	color: red;
-/*	text-decoration: none;*/
-/*	font-weight: bold;*/
+	color: blue;
 }
 
 p {
 	font-size: 14px;
 }
-div#container_top {  
-    background-color: #bbbbbb;
+
+div#navbar { 
+	background-color: #bbbbbb;
 	color: white;
 	padding-top: 10px;
-}
-
-div#container_top a {  
-	color: black;
-}
-
-div#container_middle {  
-    background-color: #dddddd;
-/*	color: white;*/
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-div#contact {  
-    background-color: #bbbbbb;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-div#contact p  {  
-	font-size: 16px;
-}
-
-div#container_bottom {  
-    background-color: #222222;
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-
-div#container_bottom p {  
-	font-size: 14px;
-}
-
-div#navbar {  
 	color: #222222;
 	padding-bottom: 20px;
 }
@@ -71,14 +44,30 @@ div#navbar ul li {
     font: bold 1em Arial;  
 }
 
-div.header {
-	font-size: 16px;	
+div#content {  
+    background-color: #dddddd;
+/*	color: white;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-h1 {
-	font-size: 40px;
+div#contact {  
+    background-color: #bbbbbb;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-h2 {
-	font-size: 28px;
+div#contact p  {  
+	font-size: 16px;
+}
+
+div#footer {  
+    background-color: #222222;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div#footer p {  
+	font-size: 14px;
 }
