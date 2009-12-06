@@ -47,13 +47,13 @@ div#navbar ul li {
 div#content {  
     background-color: #dddddd;
 /*	color: white;*/
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
 div#contact {  
     background-color: #bbbbbb;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
