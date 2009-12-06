@@ -5,11 +5,11 @@ body {
 
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 32px;
 }
 
 a {
@@ -21,9 +21,9 @@ p {
 }
 
 div#navbar { 
-	background-color: #bbbbbb;
+	background-color: #FFFFFF;
 	color: white;
-	padding-top: 10px;
+	padding-top: 20px;
 	color: #222222;
 	padding-bottom: 20px;
 }
@@ -45,14 +45,14 @@ div#navbar ul li {
 }
 
 div#content {  
-    background-color: #dddddd;
-/*	color: white;*/
+    background-color: #eeeeee;
+	color: #222222;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
 div#contact {  
-    background-color: #bbbbbb;
+    background-color: #dddddd;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
