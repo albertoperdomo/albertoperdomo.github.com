@@ -5,8 +5,15 @@ body {
 
 
 h1 {
-	font-size: 50px;
+	font-size: 66px;
+	line-height: 150%;
+	font-weight: bold;
 }
+
+h1 span {
+	color: #888888;
+}
+
 
 h2 {
 	font-size: 32px;
@@ -20,35 +27,28 @@ p {
 	font-size: 14px;
 }
 
-div#navbar { 
-	background-color: #FFFFFF;
-	color: white;
-	padding-top: 20px;
-	color: #222222;
-	padding-bottom: 20px;
-}
-
-div#navbar a {  
-	color: #222222;
-}
-
-div#navbar ul {  
-    list-style: none;  
-    display: block;  
-    margin: 0 10px;  
-}  
-
-div#navbar ul li {  
-    float: left;  
-    margin: 0 1.5em;  
-    font: bold 1em Arial;  
-}
-
 div#content {  
     background-color: #eeeeee;
 	color: #222222;
 	padding-top: 20px;
 	padding-bottom: 10px;
+}
+
+div#content ul {  
+    list-style: none;  
+    display: block;  
+    margin: 0 10px;
+  	padding-top: 140px;
+}  
+
+div#content ul li {  
+    float: right;  
+    margin: 0 1.5em;  
+    font: bold 1em Arial;  
+}
+
+div#content ul li a {  
+	color: #222222;  
 }
 
 div#contact {  
