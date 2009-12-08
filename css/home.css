@@ -5,15 +5,18 @@ body {
 
 
 h1 {
-	font-size: 60px;
-	line-height: 150%;
+	font-size: 66px;
 	font-weight: bold;
+	letter-spacing: -4px;
 }
 
-h1 span {
-	color: #888888;
+h1 span#alberto {
+	color: #555555;
 }
 
+h1 span#perdomo {
+	color: #222222;
+}
 
 h2 {
 	font-size: 24px;
@@ -25,6 +28,26 @@ a {
 
 p {
 	font-size: 14px;
+}
+
+span#email_1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #777777;
+}
+
+span#email_2 {
+	font-size: 48px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #555555;
+}
+
+span#email_3 {
+	font-size: 48px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #222222;
 }
 
 div#content {  
@@ -43,8 +66,9 @@ div#content ul {
 
 div#content ul li {  
     float: right;  
-    margin: 0 1.5em;  
-    font: bold 1em Arial;  
+    margin: 0 1.5em; 
+ 	font-weight: bold;
+    font-size: 16px;  
 }
 
 div#content ul li a {  
@@ -54,11 +78,29 @@ div#content ul li a {
 div#contact {  
     background-color: #dddddd;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 div#contact p  {  
 	font-size: 16px;
+}
+
+div#contact ul {  
+    list-style: none;  
+    display: block;  
+    margin: 0 10px;
+	padding-top: 10px;
+}  
+
+div#contact ul li {  
+    float: left;  
+/*    margin: 0 1.5em;*/
+	font-size: 16px;
+    font-weight: bold;  
+}
+
+div#contact ul li a {  
+	color: #222222;  
 }
 
 div#footer {  
