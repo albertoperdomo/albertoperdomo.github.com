@@ -89,12 +89,11 @@ div#contact ul {
     list-style: none;  
     display: block;  
     margin: 0 10px;
-	padding-top: 10px;
+	padding-top: 30px;
 }  
 
 div#contact ul li {  
     float: left;  
-/*    margin: 0 1.5em;*/
 	font-size: 16px;
     font-weight: bold;  
 }
