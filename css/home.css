@@ -1,114 +1,120 @@
 body {
-	background: #eeeeee;
-	color: #000000;
+  background: #eeeeee;
+  color: #000000;
 }
 
 
 h1 {
-	font-size: 66px;
-	font-weight: bold;
-	letter-spacing: -4px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -4px;
 }
 
 h1 span#alberto {
-	color: #555555;
+  color: #555555;
 }
 
 h1 span#perdomo {
-	color: #222222;
+  color: #222222;
 }
 
 h2 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 a {
-	color: red;
+  color: red;
 }
 
 p {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 span#email_1 {
-	font-size: 46px;
-	font-weight: bold;
-	color: #777777;
+  font-size: 46px;
+  font-weight: bold;
+  color: #777777;
 }
 
 span#email_2 {
-	font-size: 46px;
-	line-height: 150%;
-	font-weight: bold;
-	color: #555555;
+  font-size: 46px;
+  line-height: 150%;
+  font-weight: bold;
+  color: #555555;
 }
 
 span#email_3 {
-	font-size: 46px;
-	line-height: 150%;
-	font-weight: bold;
-	color: #222222;
+  font-size: 46px;
+  line-height: 150%;
+  font-weight: bold;
+  color: #222222;
 }
 
 div#content {  
-    background-color: #eeeeee;
-	color: #222222;
-	padding-top: 20px;
-	padding-bottom: 10px;
+  background-color: #eeeeee;
+  color: #222222;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
 }
 
 div#content ul {  
-    list-style: none;  
-    display: block;  
-    margin: 0 10px;
-  	padding-top: 140px;
+  list-style: none;  
+  display: block;  
+  margin: 0 10px;
+  padding-top: 40px;
 }  
 
 div#content ul li {  
-    float: right;  
-    margin: 0 1.5em; 
- 	font-weight: bold;
-    font-size: 16px;  
+  float: right;  
+  margin: 0 1.5em; 
+  font-weight: bold;
+  font-size: 16px;  
 }
 
 div#content ul li a {  
-	color: #222222;  
+  color: #222222;  
+}
+
+div#content img {
+  border: 3px solid #666666;
+  margin-bottom: 20px;
 }
 
 div#contact {  
-    background-color: #dddddd;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  background-color: #dddddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 div#contact p  {  
-	font-size: 16px;
+  font-size: 16px;
 }
 
 div#contact ul {  
-    list-style: none;  
-    display: block;  
-    margin: 0 10px;
-	padding-top: 30px;
+  list-style: none;  
+  display: block;  
+  margin: 0 10px;
+  padding-top: 30px;
 }  
 
 div#contact ul li {  
-    float: left;  
-	font-size: 16px;
-    font-weight: bold;  
+  float: left;  
+  font-size: 16px;
+  font-weight: bold;  
 }
 
 div#contact ul li a {  
-	color: #222222;  
+  color: #222222;  
 }
 
 div#footer {  
-    background-color: #222222;
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 10px;
+  background-color: #222222;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 div#footer p {  
-	font-size: 14px;
+  font-size: 14px;
 }
