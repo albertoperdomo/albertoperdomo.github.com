@@ -5,16 +5,22 @@ body {
 
 
 h1 {
-  font-size: 50px;
+  font-size: 36px;
   font-weight: bold;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
+  margin-top: -15px;
 }
 
 h1 span#alberto {
+  font-size: 48px;
+  font-weight: bold;
   color: #555555;
+  padding-right: 5px;
 }
 
 h1 span#perdomo {
+  font-size: 48px;
+  font-weight: bold;
   color: #222222;
 }
 
@@ -22,12 +28,35 @@ h2 {
   font-size: 24px;
 }
 
-a {
-  color: red;
+h2 strong {
+  font-weight: bold;
+  font-size: 28px;
+  color: #333333;
 }
 
 p {
   font-size: 14px;
+}
+
+a {
+  color: #111111;
+  padding: 2px 3px;
+  background-color: #80FE80;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #111111;
+  background: none;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+strong {
+  color: #111111;
+  padding: 2px 3px;
+  background-color: #F9FC7B;
 }
 
 span#email_1 {
@@ -53,16 +82,15 @@ span#email_3 {
 div#content {  
   background-color: #eeeeee;
   color: #222222;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 10px;
-  margin-top: 40px;
 }
 
 div#content ul {  
   list-style: none;  
   display: block;  
   margin: 0 10px;
-  padding-top: 40px;
+  padding-top: 0px;
 }  
 
 div#content ul li {  
@@ -73,18 +101,24 @@ div#content ul li {
 }
 
 div#content ul li a {  
-  color: #222222;  
+  color: #222222;    
 }
 
-div#content img {
+div#content img#picture {
   border: 3px solid #666666;
-  margin-bottom: 20px;
+}
+
+div#content img#logo_aentos {
+  margin-top: -20px;
+  float: right;
 }
 
 div#contact {  
-  background-color: #dddddd;
+  background-color: #FEFEDE;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-top: 2px solid #666666;
+  border-bottom: 2px solid #666666;
 }
 
 div#contact p  {  
