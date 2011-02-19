@@ -60,6 +60,10 @@ strong {
   background-color: #F9FC7B;
 }
 
+div#contact span {
+  font-family: 'Permanent Marker','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
 span#email_1 {
   font-size: 46px;
   font-weight: bold;
