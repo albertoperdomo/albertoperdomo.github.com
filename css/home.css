@@ -9,6 +9,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -2px;
   margin-top: -15px;
+  font-family: 'Permanent Marker','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
 
 h1 span#alberto {
@@ -41,7 +42,7 @@ p {
 a {
   color: #111111;
   padding: 2px 3px;
-  background-color: #80FE80;
+/*  background-color: #80FE80;*/
   text-decoration: underline;
   font-weight: bold;
 }
@@ -79,52 +80,52 @@ span#email_3 {
   color: #222222;
 }
 
-div#content {  
+div#content {
   background-color: #eeeeee;
   color: #222222;
   padding-top: 40px;
   padding-bottom: 10px;
 }
 
-div#navbar {  
+div#navbar {
   padding-top: 20px;
 }
 
-div#navbar ul {  
+div#navbar ul {
 /*  list-style: none;  */
   margin: 0;
   padding: 0;
   list-style-type: none;
-}  
+}
 
-div#navbar ul li {  
-  float: right;  
-  margin: 0 0.5em; 
+div#navbar ul li {
+  float: right;
+  margin: 0 0.5em;
   font-weight: bold;
   font-size: 16px;
   display: inline;
 }
 
-div#navbar ul li a {  
-  color: #222222;    
+div#navbar ul li a {
+  color: #222222;
 }
 
-div#content ul {  
-  list-style: none;  
-  display: block;  
+div#content ul {
+  list-style: none;
+  display: block;
   margin: 0 10px;
   padding-top: 0px;
-}  
-
-div#content ul li {  
-  float: right;  
-  margin: 0 1.5em; 
-  font-weight: bold;
-  font-size: 16px;  
 }
 
-div#content ul li a {  
-  color: #222222;    
+div#content ul li {
+  float: right;
+  margin: 0 1.5em;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div#content ul li a {
+  color: #222222;
 }
 
 div#content img#picture {
@@ -136,7 +137,7 @@ div#content img#logo_aentos {
   float: right;
 }
 
-div#contact {  
+div#contact {
   background-color: #FEFEDE;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -144,34 +145,34 @@ div#contact {
   border-bottom: 2px solid #666666;
 }
 
-div#contact p  {  
+div#contact p  {
   font-size: 16px;
 }
 
-div#contact ul {  
-  list-style: none;  
-  display: block;  
+div#contact ul {
+  list-style: none;
+  display: block;
   margin: 0 10px;
   padding-top: 30px;
-}  
+}
 
-div#contact ul li {  
-  float: left;  
+div#contact ul li {
+  float: left;
   font-size: 16px;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-div#contact ul li a {  
-  color: #222222;  
+div#contact ul li a {
+  color: #222222;
 }
 
-div#footer {  
+div#footer {
   background-color: #222222;
   color: white;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-div#footer p {  
+div#footer p {
   font-size: 14px;
 }
